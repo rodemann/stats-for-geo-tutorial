@@ -1,3 +1,12 @@
+### Statistics for Geosciences ###
+### Tutorial 1 ###################
+### Introduction to R ############
+### Julian Rodemann ##############
+
+
+
+
+
 # Getting started with R 
 
 # Code that is written in the R script (not the console below) can be saved and reused later!
@@ -10,6 +19,14 @@
 999/11
 1+2*3 # make sure that mathematical rules are applied by adding brackets:
 (1+2)*3
+# vectors
+vector_a <- c(1,2,3)
+# matrices 
+matrix_a <- matrix(c(1,2,3,4,5,6), nrow = 2, byrow = TRUE)
+t(matrix_a)
+# matrix multiplication
+matrix_a %*% t(matrix_a)
+
 
 
 # -------------------------------------------------------------------------
