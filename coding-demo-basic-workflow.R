@@ -91,7 +91,7 @@ summary(faithful) # print information on each variable's distribution (counts pe
 # Step 1: Save the csv-file '.csv'
 
 # Step 2: Copy the path & file name & paste it here (Windows: '/', linux/mac: '\')
-my_file_location <- "S:/Statistics for Geosciences/construction-components.csv"
+my_file_location <- "S:/Statistics for Geosciences/construction-components.csv" # just an example
 
 # Step 3: Assign a name to your dataframe (df <-) and read the file
 df <- read.csv(my_file_location)
